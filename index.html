@@ -1,0 +1,50 @@
+<!-- Form in HTML : forms are used to collect information (data ) from the user 
+eg . sing up ,login request /contact me  -->
+<html> 
+    <head><h2>Registration Form</h2>
+     </head>
+    <body>
+        <form action="/action.php">  <!-- Action attributes is used to define what action need to be performed when a form is submited -->
+            <input type="text"placeholder = " User Name "> <br> <br>
+            <input type="password" placeholder="password"> <br>
+            <h3>Choose your class </h3>
+        <label for="101">
+            <input type="radio" value="Class XI" name="Class" id = " 101">Class XI <br>
+        </label>
+        <label for="102">
+            <input type="radio" value=" Class XII " name="Class"  id="102">Class XIII<br>
+        </label>
+        <h3> Select your favaurit Subject </h3> 
+        <label for="math">
+            <input type="checkbox" value="math " name=" subject  " id="101">Math 
+        </label> <br>
+        <label for="physic">
+            <input type="checkbox" value="physic " name=" subject  " id="102">Physic 
+        </label> <br>
+        <label for="english ">
+            <input type="checkbox" value="english  " name=" subject  " id="103">English 
+        </label> <br>
+        <label for="CS">
+            <input type="checkbox" value="CS" name=" subject  " id="104">CS 
+        </label>
+        <br><br>
+        Select your city 
+        <select name="city " placeholder="Month">
+            <option value="Delhi ">Delhi </option>
+            <option value="Banglore "> Banglore </option>
+            <option value="Pune ">Pune </option>
+            <option value="mumbai">Mumbai</option>
+            <option value="Kanpur ">Kanpur </option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Agra ">Agra </option>
+            <option value="Patna ">Patna </option>
+            <option value="other city"></option>
+        </select> 
+        <br><br>
+        <textarea name="Feedback " id="101" placeholder="Please give your valuable feedback here " row 5 ></textarea>
+     <br><br>
+     <input type="submit" value="submit button ">    
+    </form> 
+    <footer>contact me :-rahulraj102003@gmail.com , 6205462257</footer>
+    </body>
+</html>
